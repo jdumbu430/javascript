@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Example 1
+    <link href="external.css" type="text/css" rel="stylesheet" />
+    <style>
+      h1 {
+        color: red;
+        border-top: solid green;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Example 1</h1>
+    </header>
+  </body>
+
+</html>
