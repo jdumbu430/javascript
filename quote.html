@@ -6,13 +6,15 @@
         <title>document</title>
         </head>
         <body>  
+            <header>
             <h1>Quote</h1>
+            </header>
                 <script>
                 //create array, prompt user, use remainder, favorite website, prompt user website, delete first website, new list of links to the page and add comments
                 var quote = ["Be ready, Be confident, Dream big, Believe in, Embrace change"];
                 var yourNumber = prompt("Please enter a number");
-                var Index =yourNumber; 
-                var remainder = quotes[index];
+                var index =yourNumber % 5;
+                var remainder = quote[index];
                 document.write (remainder);
                var variable_name = ["favorite website"];
                var favoriteWebsite = ["https://www.blogger.com", "https://facebook.com", "https://www.google.com"];
@@ -27,4 +29,4 @@
 
                  
                 
-        
+         
