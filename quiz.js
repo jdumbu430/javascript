@@ -9,8 +9,8 @@ var EngAns = ["Jonathan", "I'm fine", "Texas"];
   var attempts = 3;
   while (attempts > 0) 
     // prompt user with English question
-    ans = prompt["How are you"];
-    if (ans = "I'm fine");
+    ans = prompt("how are you");
+    if (ans = "i'm fine");
       alerts("correct");
       points = 1;
       Or
@@ -21,8 +21,8 @@ var EngAns = ["Jonathan", "I'm fine", "Texas"];
      var attempts = 3;
      while (attempts > 0) 
       // prompt user with English question
-     ans = prompt["Where are you"];
-     if (ans = "Texas");
+     ans = prompt("where are you");
+     if (ans = "texas");
 	   alert("Correct!");
 	   points = 1
       Or
@@ -30,7 +30,7 @@ var EngAns = ["Jonathan", "I'm fine", "Texas"];
 	   alert("Incorrect");
 
       // prompt user with English question
-      ans = prompt("What is your name");
+      ans = prompt("what is your name");
       if (ans = "Jonathan");
         points = 1;
         alert("Correct!");
