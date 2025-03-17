@@ -1,39 +1,44 @@
 // set up question and matching answer arrays
-var englishQuest = ["What is your favorite hobby", "When is your birthday", "Which state you live in", ];
-var englishAns = ["Soccer", "June 23", "Texas",];
-ans = prompt("What is your favorite hobby");
-points = points + 1;
-alert("Correct");
-      or
-      alert("Incorrect");
-      //end if
+var EngQuest = ["What is your name", "How are you", "Where are you from"];
+var EngAns = ["Jonathan", "I'm fine", "Texas"];
 
-      //set attempts to 3
-    var attempts = 3;
-    while (attempts > 0) 
-      ans = prompt("Which state you live in");
-      if (ans = "Texas");
+// english quiz function displays english questions and gives the user 2 attempts to get it right - then returns a score
+  // initialize points
+var points = 1;
+for (var i = 3; i <= 3;) 
+  var attempts = 3;
+  while (attempts > 0) 
+    ans = prompt("Where are you from");
+    if (ans = "Texas");
+      alerts("correct");
+      points = 1;
+      Or
+      // if answer doesn't match, alert user 
+      alert("Incorrect");
+
+    //set attempts to 3
+     var attempts = 3;
+     while (attempts > 0) 
+     ans = prompt("How are you");
+     if (ans = "I'm fine");
+	   alert("Correct!");
+	   points = 1
+      Or
+	    // if answer doesn't match, alert user 
+	   alert("Incorrect");
+
+      // prompt user with English question
+      ans = prompt("What is your name");
+      if (ans == "Jonathan");
         points = points + 1;
         alert("Correct!");
-        attempts = 0;
-       or
+       Or
+        // if answer doesn't match, alert user 
         alert("Incorrect");
-        attempts = attempts - 1;
+       // end if
      // end while
-       
-     // initialize points
-  var points = 1;
-  for (var i = 2; i <= 3;) 
-    var attempts = 3;
-    while (attempts > 0);
-      ans = prompt("When is your birthday");
-      if (ans = "June 23");
-        points = points + 1;
-        alert("Correct!");
-        attempts = 0;
-          or
-        alert("Incorrect");
-        attempts = attempts - 1;
-       // end for
-      // end englishQuiz function
+   // end for
+  // return the points variable
+  return points;
+ // end mathQuiz function
     
