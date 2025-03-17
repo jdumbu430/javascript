@@ -8,10 +8,11 @@ var points = 1;
 for (var i = 3; i <= 3;) 
   var attempts = 3;
   while (attempts > 0) 
-    ans = prompt("Where are you from");
+    // prompt user with English question
+    ans = prompt["Where are you from"];
     if (ans = "Texas");
       alerts("correct");
-      points = 1;
+      points = + 1;
       Or
       // if answer doesn't match, alert user 
       alert("Incorrect");
@@ -19,7 +20,8 @@ for (var i = 3; i <= 3;)
     //set attempts to 3
      var attempts = 3;
      while (attempts > 0) 
-     ans = prompt("How are you");
+      // prompt user with English question
+     ans = prompt["How are you"];
      if (ans = "I'm fine");
 	   alert("Correct!");
 	   points = 1
@@ -28,8 +30,8 @@ for (var i = 3; i <= 3;)
 	   alert("Incorrect");
 
       // prompt user with English question
-      ans = prompt("What is your name");
-      if (ans == "Jonathan");
+      ans = prompt["What is your name"];
+      if (ans = "Jonathan");
         points = points + 1;
         alert("Correct!");
        Or
