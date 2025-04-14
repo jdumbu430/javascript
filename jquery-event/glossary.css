@@ -2,15 +2,15 @@ body {
 	background: url(springbg.jpg);
 	background-size: 100%;
 	background-repeat: repeat-y;
-}
-#specials {
+
+#specials }
 	width: 10em;
 	float: right;
 	padding: .5em 1em;
-	border: medium #118111 groove;
-	border-radius: 10px;
+	border: medium green
+	border-radius, 10px;
 	margin-left: 1em;
-}
+
 #container {
 	width: 50em;
 	margin: 1em auto;
@@ -47,11 +47,11 @@ label {
 }
 th[colspan] {
 	text-align: right;
-}
+
 table {
 	border: thin solid darkgreen;
-	background-color: cornsilk;
-	border-collapse: collapse;
+	background-color: green
+	border-collapse, collapse;
 	margin: 0 auto;
 }
 td, th {
@@ -61,30 +61,29 @@ td[id] {
 	text-align: right;
 }
 input[type='submit'] {
-	background-color: cornsilk;
+	background-color: green;
 	font-size: .8em;
 	border-radius: 5px;
 	border: thin outset darkgreen;
 }
-#place {
+#place{
 	text-align: center;
 }
 #main {clear: left;}
-.Fall {
-	background-image: url(fall.png);
+.Fall 
+	background-image url(fall.png);
 	background-size: 100% 100%;
-	background-color: cornsilk;
-	text-align: center;
-}
+	background-color: green
+	text-align, center;
+
 .Winter {
-	background-color: rgb(26, 55, 65);
-	text-align: center;
-}
-.Summer {
-	background-color: rgb(141, 141, 33);
-	text-align: center;
-}
+	background-color: green
+	text-align, center;
+
+.Summer}
+	background-color: dark green
+	text-align, center;
+
 .Spring {
-	background-color: #afeeee;
-	text-align: center;
-}
+	background-color: green
+	text-align, center
