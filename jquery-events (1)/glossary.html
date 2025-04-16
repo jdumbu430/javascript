@@ -7,37 +7,26 @@
     <meta name="viewport" content="width=device-width; initial-scale=1.0">
     <link href="glossary.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-    <!-- <script>
-      $(document).ready(function(){
-        $("h1").mouseover(function(){
-          $("h1").css("color", "yellow");
-        });
-        $("h1").mouseout(function(){
-          $("h1").css("color", "darkgreen");
-        });
-      });
+    <script>
+      function mouseOver() {
+        document.getElementById("demo").style.color = "red";
+      }
+      
+      function mouseOut() {
+        document.getElementById("demo").style.color = "black";
+      }
       </script>
-      <script>
-        $(document).ready(function(){
-          $("h2").mouseover(function(){
-            $("h2").css("color", "yellow");
-          });
-          $("h2").mouseout(function(){
-            $("h2").css("color", "darkgreen");
-          });
-        });
-        </script> -->
 	</head>
     <body>
     <div id="container">  
       <header>
-        <h1>Patti's Bed of Blooms</h1>
+        <h1 id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">Patti's Bed of Blooms</h1>
       </header>
       <nav>
         <p><a href="index.html">Home</a> | <a href="orderform.html">Place an Order</a> | <a href="mums.html">Mums</a> | <a href="pansy.html">Pansies</a> | <a href="glossary.html">Plant Glossary</a></p>
       </nav>
       <div>
-        <h2>Flower Glossary</h2>
+        <h2 id="demo" onmouseover="mouseOver()" onmouseout="mouseOut()">Flower Glossary</h2>
         <div class="col">
           <div class="flower" id="a">african corn lily<span class="botanic">:&nbsp;ixia</span></div>
           <div class="flower">african lily<span class="botanic">:&nbsp;agapanthus</span></div>
