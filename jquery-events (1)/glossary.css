@@ -32,11 +32,17 @@ legend {
 	font-family: "Comic Sans MS";
 	color: darkgreen;
 }
-h1, h2, h3 {
+h1, h2 {
 	color: cyan;
 	text-align: center;
 	line-height: .7em;
 	font-family: "Comic Sans MS";
+	h1:hover {
+		color: yellow;
+		font-size: 18px;}
+		h2:hover {
+			color: yellow;
+			font-size: 18px;}
 }
 label {
 	display: inline-block;
